@@ -6,6 +6,22 @@ ___
 #### About me
 ___
 ### Skills
+* Linux
+* PHP
+* JavaScript
+* TypeScript
+* Node.js
+* React
+* Redux Toolkit
+* Express / Koa
+* HTML/CSS
+* Databases:
+  * SQL
+  * Redis
+  * MongoDB
+  * Clickhouse
+* GIT
+* Docker
 ___
 #### Code Example
 ```
