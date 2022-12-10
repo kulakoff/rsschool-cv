@@ -7,7 +7,7 @@ ___
 ---
 #### About me
 I am a senior network engineer in a telecom operator. A difficult task is not a problem but a challenge. I constantly evaluate and improve my skills to stay at the forefront of technology. Now I'm interested in full stack development. Next in mobile development.
-In my free time I go in for sports, I like to travel.
+In my free time I go in for sports, I like to travel.  
 ___
 ### Skills
 * PHP
@@ -75,6 +75,7 @@ Technologies:
   * SQL
   * HTML
   * CSS
+___
 ### __Education__
 #### 2011 - 2016  Applied mathematician, systems programmer.  
 >Tambov State University named after G. R. Derzhavin.   
