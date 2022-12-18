@@ -1,3 +1,140 @@
-body {
-    color: lightgrey;
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Playfair+Display:wght@400;500;900&display=swap');*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+ul {
+    padding-left: 18px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #646464;
+    color: #646464;
+    /*overflow: visible;*/
+    text-align: center;
+    height: 1px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 10px;
+}
+h1{
+    font-family: Roboto, serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+h4{
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+   margin: 10px;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template: minmax(160px, auto) 1fr minmax(70px, auto)/1fr;
+    grid-template-areas:
+            "header"
+            "content"
+            "footer";
+}
+
+.header {
+    grid-area: header;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    line-grid: inherit;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+.header__wrapper{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header__container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.header__img{
+    border-radius: 50%;
+    max-width: 100px;
+}
+.header__text{
+    text-align: right;
+}
+.header__contacts{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.content{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: whitesmoke;
+}
+.footer__container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__git{
+}
+.footer__text{
+
+}
+.footer__logo{
+    max-width: 90px;
+}
+.title_name{
+    font-family: Playfair Display, serif;
+    font-weight: 900;
+    font-size: 24px;
+}
+.title_vocation{
+    font-family: Inter, serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #646464
+;
+}
+
+.content__about-me{
+    padding-bottom: 16px;
+}
+.content__skills{
+    padding-bottom: 16px;
+}
+.content__code-example{
+    background-color:#EBECE4 ;
+    padding-bottom: 16px;
+}
+.content__recent-projects{
+    padding-bottom: 16px;
+}
+.content__education{
+    padding-bottom: 16px;
+}
+.content__languages{
+    padding-bottom: 16px;
 }
