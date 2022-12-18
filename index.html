@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Anton Kulakov - CV</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__container">
+                <img class="header__img" src="1862687.jpeg" alt="">
+                <div class="header__text">
+                    <h1>Anton Kulakov</h1>
+                    <p class="title_vocation">Full Stack Developer</p>
+                </div>
+            </div>
+            <div class="header__contacts">
+                <p>Contacts: <a href="https://t.me/antonkulakoff">telegram</a>
+                    <a href="mailto:anton.kulakoff@gmail.com">email</a></p>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <h4>About me</h4>
+        <hr>
+        <div class="content__about-me">
+
+            <p>
+                I am a senior network engineer in a telecom operator. A difficult task is not a problem but a challenge.
+                I
+                constantly evaluate and improve my skills to stay at the forefront of technology. Now I’m interested in
+                full
+                stack development. Next in mobile development. In my free time I go in for sports, I like to travel.
+            </p>
+        </div>
+        <h4>Skills</h4>
+        <hr>
+        <div class="content__skills">
+            <ul>
+                <li>PHP</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>React</li>
+                <li>Redux Toolkit</li>
+                <li>Express / Koa</li>
+                <li>Databases:
+                    <ul>
+                        <li>SQL</li>
+                        <li>Redis</li>
+                        <li>MongoDB</li>
+                        <li>Clickhouse</li>
+                    </ul>
+                </li>
+                <li>Linux</li>
+                <li>Git</li>
+                <li>Docker</li>
+
+            </ul>
+        </div>
+        <h4> Code example</h4>
+        <hr>
+        <div class="content__code-example">
+            <pre class="code-example-text">
+                        <code>
+    const debounce = (fn, ms) => {
+        let timeout;
+        return function () {
+        const fnCall = () => { fn.apply(this, arguments) }
+            clearTimeout(timeout);
+            timeout = setTimeout(fnCall, ms)
+        };
+    }
+                    </code>
+                </pre>
+        </div>
+        <p>other in my <a href="https://github.com/kulakoff">gitHub</a></p>
+        <h4>Recent projects</h4>
+        <hr>
+        <div class="content__recent-projects">
+            <ul>
+                <li>
+                    <a href="https://github.com/kulakoff/genieacs">GenieACS</a>
+                    <br>
+                    Fork and intergation TR-069 Auto Configuration Server (ACS).
+                    <br>
+                    Technologies:
+                    <ul>
+                        <li>TypeScript</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://github.com/kulakoff/camDiff">camDiff</a>
+                    <br>
+                    Detecting the loss of a “useful” signal on video cameras
+                    <br>
+                    Technologies:
+                    <ul>
+                        <li>TypeScript</li>
+                        <li>Redis</li>
+                    </ul>
+                </li>
+                <li>
+                    MetersService.
+                    <br>
+                    Service for automatic collection and sending of meter readings to a sales company.
+                    Prototype <a href="https://github.com/kulakoff/net-tools-client-ts">frontend</a> and <a
+                        href="https://github.com/kulakoff/net-tools-api">backend</a>.
+                    <br>
+                    Technologies:
+                    <ul>
+                        <li>TypeScript</li>
+                        <li>MySQL</li>
+                        <li>Redis</li>
+                        <li>React.js</li>
+                        <li>JWT</li>
+                    </ul>
+                </li>
+                <li>
+                    RBT
+                    <br>
+                    Autonomous server part for intercom and video surveillance service.
+                    <br>
+                    Technologies:
+                    <ul>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>Lua</li>
+                        <li>Clickhouse</li>
+                        <li>MongoDB</li>
+                        <li>SQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <h4>Education</h4>
+        <hr>
+        <div class="content__education">
+            <ul>
+                <li>
+                    2011 - 2016 Applied mathematician, systems programmer.
+                    <p>Tambov State University named after G. R. Derzhavin.
+                        <br>Institute of Mathematics, Physics and Information Technology.</p>
+                </li>
+                <li>
+                    2005 - 2008 Automated Information Systems Technician
+                    <p>Cooperative technical school of the Tambov Regional Consumer Union</p>
+                </li>
+            </ul>
+        </div>
+        <h4>Languages</h4>
+        <hr>
+        <div class="content__languages">
+            <ul>
+                <li>Russian - Native</li>
+                <li>English - Beginner</li>
+            </ul>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__git">
+                <a href="https://github.com/kulakoff/">Git</a>
+            </div>
+            <div class="footer__text">
+                <p>2022</p>
+            </div>
+            <img class="footer__logo" src="https://rs.school/images/rs_school_js.svg" alt="img_logo">
+        </div>
+
+    </footer>
+</div>
+</body>
+</html>
